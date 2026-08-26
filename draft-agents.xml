@@ -1,0 +1,14 @@
+<fetch>
+  <entity name="bot">
+    <attribute name="name" />
+    <attribute name="botid" />
+    <attribute name="schemaname" />
+    <attribute name="publishedon" />
+    <attribute name="createdon" />
+    <attribute name="statecode" />
+    <filter>
+      <condition attribute="publishedon" operator="null" />
+    </filter>
+    <order attribute="createdon" />
+  </entity>
+</fetch>
